@@ -21,6 +21,7 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 15px;
 }
 
 header .logo {
@@ -47,7 +48,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/capitan-fondo.jpg);
-    height: 400px;
+    height: 80vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -58,7 +59,7 @@ header nav a:hover{
 .filme-principal2{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/eternals.jpg);
-    height: 400px;
+    height: 80vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
